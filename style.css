@@ -213,10 +213,12 @@ body {
     padding: 10px 15px;
     display: block;
 }
+
 .dropdown {
     position: relative;
     display: inline-block;
 }
+
 .dropdown-btn {
     background-color: white;
     color: #0A53BE;
@@ -226,6 +228,7 @@ body {
     font-weight: bold;
     font-size: 18px;
 }
+
 .dropdown-content {
     display: none;
     position: absolute;
@@ -234,6 +237,7 @@ body {
     min-width: 200px;
     z-index: 100;
 }
+
 .dropdown-content a {
     display: block;
     padding: 10px;
@@ -241,6 +245,141 @@ body {
     text-decoration: none;
     border-bottom: 1px solid #ddd;
 }
+
 .dropdown-content a:hover {
     background-color: #f1f1f1;
+}
+
+.kirish-btn {
+    display: flex;
+    align-items: center;
+    background-color: #0A53BE;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.kirish-btn:hover {
+    background-color: #084298;
+}
+
+.kirish-btn i {
+    margin-right: 8px;
+    font-size: 18px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.search-container {
+    background: rgba(10, 83, 190, 0.9);
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    max-width: 1300px;
+    margin: 30px auto;
+    width: 90%;
+}
+
+.search-box .doc-number {
+    width: 100px;
+    padding: 10px;
+    font-size: medium;
+    border: none;
+}
+
+.search-box .doc-name {
+    width: 200px;
+    padding: 10px;
+    font-size: medium;
+    border: none;
+
+
+}
+
+.search-container h2 {
+    margin-bottom: 20px;
+}
+
+.search-box {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.search-box input,
+.search-box select {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.search-box input {
+    width: 200px;
+}
+
+.search-box select {
+    width: 150px;
+}
+
+.search-box .checkbox-container {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.search-box .search-btn {
+    background: white;
+    color: #0A53BE;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.search-box .search-btn:hover {
+    background: #ddd;
+}
+
+.search-box .mic-btn {
+    background: white;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.search-box .mic-btn:hover {
+    background: #ddd;
+}
+
+.advanced-search {
+    margin-top: 10px;
+    font-size: 15px;
+    text-decoration: underline;
+    cursor: pointer;
+    color: white;
+    margin-right: 950px;
+}
+
+input[type="date"]::-webkit-datetime-edit {
+    color: transparent;
+}
+
+input[type="date"]:focus::-webkit-datetime-edit {
+    color: black;
 }

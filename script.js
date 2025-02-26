@@ -45,3 +45,41 @@ window.onclick = function(event) {
         }
     }
 }
+
+function menu2() {
+    var menu = document.getElementById("dropdownMenu2");
+    if (menu.style.display === "block") {
+        menu.style.display = "none";
+    } else {
+        menu.style.display = "block";
+    }
+}
+
+// Tashqariga bosganda menyuni yopish
+window.onclick = function(event) {
+    if (!event.target.matches('.dropdown-btn')) {
+        var menus = document.getElementsByClassName("dropdown-content");
+        for (var i = 0; i < menus.length; i++) {
+            menus[i].style.display = "none";
+        }
+    }
+}
+
+function menu3() {
+    var menu = document.getElementById("dropdownMenu3");
+    if (menu.style.display === "block") {
+        menu.style.display = "none";
+    } else {
+        menu.style.display = "block";
+    }
+}
+
+// Tashqariga bosganda menyuni yopish
+window.onclick = function(event) {
+    if (!event.target.matches('.dropdown-btn')) {
+        var menus = document.getElementsByClassName("dropdown-content");
+        for (var i = 0; i < menus.length; i++) {
+            menus[i].style.display = "none";
+        }
+    }
+}

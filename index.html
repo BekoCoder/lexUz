@@ -62,30 +62,32 @@
         <button class="dropdown-btn" onclick="menu()">TIZIM HAQIDA</button>
         <div class="dropdown-content" id="dropdownMenu1">
             <a href="#">Foydalanuchi uchun qo'llanma</a>
-            <a href="#">Haftalik</a>
-            <a href="#">Oylik</a>
-            <a href="#">Kalendar</a>
+            <a href="#"> Yuridik tahlil kartochkasi</a>
+            <a href="#"> Axborotni taqdim etish shartlari</a>
+            <a href="#">Foydalanish shartlari</a>
         </div>
     </div>
     <div class="dropdown">
-        <button class="dropdown-btn" onclick="toggleMenu2()">NASHRLAR</button>
-        <div class="dropdown-content" id="dropdownMenu">
-            <a href="#">Bugun</a>
-            <a href="#">Haftalik</a>
-            <a href="#">Oylik</a>
-            <a href="#">Kalendar</a>
+        <button class="dropdown-btn" onclick="menu2()">NASHRLAR</button>
+        <div class="dropdown-content" id="dropdownMenu2">
+            <a href="#">O'zbekiston Respublikasi qonunchilik to'plami</a>
+            <a href="#">O'zbekiston Respublikasi xalqaro qonunchilik to'plami</a>
+            <a href="#">Kutubxona</a>
         </div>
     </div>
     <div class="dropdown">
-        <button class="dropdown-btn" onclick="toggleMenu3()">MA’LUMOTNOMALAR</button>
-        <div class="dropdown-content" id="dropdownMenu">
-            <a href="#">Bugun</a>
-            <a href="#">Haftalik</a>
-            <a href="#">Oylik</a>
-            <a href="#">Kalendar</a>
+        <button class="dropdown-btn" onclick="menu3()">MA’LUMOTNOMALAR</button>
+        <div class="dropdown-content" id="dropdownMenu3">
+            <a href="#">O‘zbekiston Respublikasining Davlat ramzlari</a>
+            <a href="#">Konstitutsiyaviy huquq. Ensiklopedik lug‘at</a>
+            <a href="#">Qonunchilik tarmoqlari umumhuquqiy klassifikatori</a>
+            <a href="#">Hisobotlar shakllari</a>
+            <a href="#">BHMS</a>
+            <a href="#">LexUz statistikasi</a>
+            <a href="#">Qo‘llanmalar</a>
         </div>
     </div>
-    <div class="dropdown">
+    <div class="dropdown" href="https://www.lex.uz/uz/explanation">
         <button class="dropdown-btn" onclick="toggleMenu4()">HUQUQIY TUSHUNTIRISHLAR</button>
         <div class="dropdown-content" id="dropdownMenu">
             <a href="#">Bugun</a>
@@ -93,6 +95,30 @@
             <a href="#">Oylik</a>
             <a href="#">Kalendar</a>
         </div>
+    </div>
+    <div class="dropdown">
+        <button class="kirish-btn">
+            <i class="fas fa-user"></i> Kirish
+        </button>
+    </div>
+
+    <div class="search-container">
+        <h2>Universal qidiruv</h2>
+        <div class="search-box">
+            <input type="text" placeholder="Hujjat raqam" class="doc-number">
+            <input type="text" placeholder="Hujjat nomi" class="doc-name">
+            <input type="date" id="dateInput" class="date-picker" onfocus="(this.type='date')"
+                onblur="if(!this.value) this.type='text'" placeholder="Sanani kiriting">
+            <select>
+                <option>Hujjat turi</option>
+                <option>Qaror</option>
+                <option>Buyruq</option>
+                <option>Farmon</option>
+            </select>
+            <button class="search-btn"><i class="fas fa-search"></i> Izlash</button>
+            <button class="mic-btn"><i class="fas fa-microphone"></i></button>
+        </div>
+        <div class="advanced-search">Kengaytirilgan qidiruv</div>
     </div>
 </body>
 <script src="script.js"></script>
