@@ -446,3 +446,117 @@ body {
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     }
 }
+
+body1 {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+.container1 {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.item1 {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-left: 5px solid #e3f2fd;
+    background-color: #f8f9fa;
+}
+.checked1 {
+    color: #1976d2;
+    margin-right: 10px;
+}
+.subtext1 {
+    color: #666;
+    font-size: 0.8em;
+    margin-top: 5px;
+}
+
+body2 {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+.stats-bar {
+    background-color: #e9ecef;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+}
+.stats-bar h2 {
+    color: #0056A4;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.stats-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.stat-item {
+    color: #0056A4;
+}
+.stat-item .number {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.stat-item .label {
+    font-size: 14px;
+}
+.dots {
+    margin-top: 10px;
+    color: #6c757d;
+}
+
+body3 {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: white;
+}
+.resources {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+.resources h2 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+}
+.resources-grid {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.resource-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333;
+}
+.resource-item img {
+    width: 60px; /* Rasm o‘lchamini o‘zingizga moslashtirishingiz mumkin */
+    height: 60px;
+    margin-bottom: 10px;
+    border-radius: 50%; /* Yuqori ikkita rasm uchun doira shaklini saqlash */
+}
+.resource-item .text {
+    font-size: 14px;
+    font-weight: bold;
+}
+.dots {
+    margin-top: 20px;
+    color: #666;
+    font-size: 12px;
+}
